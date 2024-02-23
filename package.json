@@ -4,6 +4,8 @@
   "description": "Browser extension form new habit, to create a better me",
   "main": "index.js",
   "scripts": {
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +23,15 @@
   "bugs": {
     "url": "https://github.com/heo001997/better-me-vue/issues"
   },
-  "homepage": "https://github.com/heo001997/better-me-vue#readme"
+  "homepage": "https://github.com/heo001997/better-me-vue#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.49",
+    "postcss": "^8.4.35",
+    "sass": "^1.71.1",
+    "sass-loader": "^14.1.1",
+    "vue": "^3.4.19",
+    "vue-loader": "^17.4.2",
+    "vue-template-compiler": "^2.7.16"
+  }
 }
