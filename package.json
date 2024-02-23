@@ -1,0 +1,25 @@
+{
+  "name": "better-me-vue",
+  "version": "1.0.0",
+  "description": "Browser extension form new habit, to create a better me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/heo001997/better-me-vue.git"
+  },
+  "keywords": [
+    "browser",
+    "vue",
+    "chrome",
+    "extension"
+  ],
+  "author": "heo001997",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heo001997/better-me-vue/issues"
+  },
+  "homepage": "https://github.com/heo001997/better-me-vue#readme"
+}
